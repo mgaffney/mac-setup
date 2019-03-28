@@ -32,6 +32,8 @@ function main() {
     return 1
   fi
 
+  # https://gist.github.com/tombigel/d503800a282fcadbee14b537735d202c
+
   install "${SCRIPTDIR}/limit.maxfiles.plist"
   install "${SCRIPTDIR}/limit.maxproc.plist"
 }
